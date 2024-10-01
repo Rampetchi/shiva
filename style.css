@@ -1,0 +1,23 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: url("image/ramrp_editz-20240930-0001.jpg");
+background-size: 100%  ;
+background-position: center;
+}
+.glass{
+   justify-content: center;
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    background: linear-gradient(135deg, rgba(255, 255,255, .5));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255,255, .5);
+    box-shadow: 0 0 30px  rgba(0, 0, 0, .5);
+ }
+
